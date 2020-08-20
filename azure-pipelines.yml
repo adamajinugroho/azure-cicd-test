@@ -34,7 +34,7 @@ steps:
     inputs:
       command: publish
       publishWebProjects: false
-      projects: "src/CommandAPI/*.csproj"
+      projects: "WeatherAPI/*.csproj"
       arguments: "--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)"
 
   - task: PublishBuildArtifacts@1
