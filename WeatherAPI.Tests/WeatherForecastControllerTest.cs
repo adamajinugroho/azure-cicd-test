@@ -27,7 +27,7 @@ namespace WeatherAPI.Tests {
             var result = controller.Get ();
 
             //Assert
-            Assert.NotNull (result);
+            Assert.Null (result);
         }
 
     }
